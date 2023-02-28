@@ -9,7 +9,7 @@ namespace ExtraTaskCollections
 			
 			var myInt = new MyInt();
 
-			int[] ints = { 2, 4, 6, 8, 10 };
+			int[] ints = { 2, 4, 6, 8, 10, 12, 15 };
 
 			myInt.AddRange(ints);
 
@@ -24,8 +24,6 @@ namespace ExtraTaskCollections
 				//sum += number;
 				Console.WriteLine(myInt.Current);
 			}
-			
-
 			Console.ReadLine();
 		}
 	}
