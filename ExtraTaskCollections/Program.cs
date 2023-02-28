@@ -6,7 +6,27 @@ namespace ExtraTaskCollections
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			
+			var myInt = new MyInt();
+
+			int[] ints = { 2, 4, 6, 8, 10 };
+
+			myInt.AddRange(ints);
+
+			myInt.GetEnumerator();
+
+			Console.WriteLine(myInt.Current);
+
+
+			//int sum = 0;
+			foreach (int number in myInt)
+			{
+				//sum += number;
+				Console.WriteLine(myInt.Current);
+			}
+			
+
+			Console.ReadLine();
 		}
 	}
 }
