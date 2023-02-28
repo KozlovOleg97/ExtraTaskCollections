@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ExtraTaskCollections
 {
-	internal class MyInt : IEnumerable, IEnumerator
+	public class MyInt : IEnumerable, IEnumerator
 	{
 
 		private List<int> list_Array = new List<int>();
